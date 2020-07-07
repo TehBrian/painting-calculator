@@ -1,0 +1,31 @@
+#form-div {
+    border-left: 2px solid #777777;
+    padding-left: 8px;
+    margin-left: 8vw;
+}
+
+#calculate-div {
+    border-left: 2px solid #ff7777;
+    padding-left: 8px;
+    margin-left: 8vw;
+}
+
+#result-div {
+    border-left: 2px solid #7777ff;
+    padding-left: 8px;
+    margin-left: 8vw;
+}
+
+#contact-div {
+    border-left: 2px solid #ff77ff;
+    padding-left: 8px;
+    margin-left: 8vw;
+}
+
+h1 {
+    margin-left: 5vw;
+}
+
+form {
+    margin-left: 1vw;
+}

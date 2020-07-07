@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Techy Stuff -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Information -->
+    <title>Minecraft Painting Calculator</title>
+    <meta name="description" content="Tool which aids in the creation of images tailored for importing into Minecraft via maps in itemframes.">
+    <meta name="author" content="TehBrian">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" media="screen" href="resources/css/main.css">
+    <!-- Scripts -->
+    <script defer src="resources/js/main.js"></script>
+</head>
+
+<body>
+    <h1>Minecraft Painting Calculator</h1>
+
+    <div id=form-div>
+        <label for="resolution">What resolution (how many pixels) would you like in each block in-game?</label>
+        <form>
+            <input type="radio" name="resolution" id="1" value="1">
+            <label for="1">1x1</label><br>
+            <input type="radio" name="resolution" id="2" value="2">
+            <label for="2">2x2</label><br>
+            <input type="radio" name="resolution" id="4" value="4">
+            <label for="4">4x4</label><br>
+            <input type="radio" name="resolution" id="8" value="8">
+            <label for="8">8x8</label><br>
+            <input type="radio" name="resolution" id="16" value="16">
+            <label for="16">16x16 (Minecraft Default)</label><br>
+            <input type="radio" name="resolution" id="32" value="32">
+            <label for="32">32x32</label><br>
+            <input type="radio" name="resolution" id="64" value="64">
+            <label for="64">64x64</label><br>
+            <input type="radio" name="resolution" id="128" value="128">
+            <label for="128">128x128</label>
+        </form>
+
+        <br>
+
+        <label for="width">Width of painting, in blocks:</label>
+        <input type="number" pattern="\d*" name="width" id="width" />
+
+        <br>
+
+        <label for="height">Height of painting, in blocks:</label>
+        <input type="number" pattern="\d*" name="height" id="height" />
+    </div>
+
+    <br>
+
+    <div id="calculate-div">
+        <button onclick="calculate();">Calculate</button>
+    </div>
+
+    <div id="result-div">
+        <span id="result"></span>
+    </div>
+
+    <br>
+
+    <div id="contact-div">
+        <span>Need more help? Have a suggestion? Contact me through <a href="https://tehbrian.xyz/discord">my Discord</a>.</span>
+    </div>
+</body>
+
+</html>
