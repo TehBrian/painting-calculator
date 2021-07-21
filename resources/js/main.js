@@ -17,10 +17,18 @@ function calculate() {
         alert("Please set a width.");
         return;
     }
+    if (width < 1) {
+        alert("Width must be at least 1.")
+        return;
+    }
 
     let height = document.getElementById("height").value;
     if (height == "") {
         alert("Please set a height.");
+        return;
+    }
+    if (height < 1) {
+        alert("Height must be at least 1.")
         return;
     }
 
