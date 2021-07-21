@@ -19,7 +19,7 @@ function calculate() {
     }
 
     let height = document.getElementById("height").value;
-    if (width == "") {
+    if (height == "") {
         alert("Please set a height.");
         return;
     }
