@@ -47,7 +47,7 @@ function calculate() {
     1. Create an image with a resolution of <strong>{0}x{1}</strong>.\
     <br>\
     2. Use a palette such as\
-    <a href=\"https://gist.githubusercontent.com/ItsTehBrian/84f1791f5b1f2fb879de36b0c0d2f056/raw/f033ddaae6d5314596810704c60a835f7843dcb4/1-16-minecraft-map-palette.gpl\">this one</a>\
+    <a href=\"https://gist.githubusercontent.com/TehBrian/84f1791f5b1f2fb879de36b0c0d2f056/raw/f033ddaae6d5314596810704c60a835f7843dcb4/1-16-minecraft-map-palette.gpl\">this one</a>\
     to make sure the colors don't get changed.\
     <br>\
     3. When exporting your image, upscale by <strong>{2}x</strong> or <strong>{3}%</strong>.\
